@@ -21,3 +21,7 @@ add_library( # Specifies the name of the library.
 
 # Specifies a path to native header files.
 include_directories(src/main/cpp/)
+
+target_link_libraries( native-lib
+                      android
+                      log)
